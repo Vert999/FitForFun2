@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<!--
+Andrew Sanders
+Fit for Fun Fitness
+info section
+6/27/22
+!-->
+
+<head>
+	<title>Fit For Fun Fitness!</title>
+	<meta charset="utf-8" />
+	<link href="fit_layout.css" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<h1>Fit For Fun</h1>
+		<h1>Registration Form</h1>
+	</header>
+	<nav> 
+		<ul class="nav-cont">
+			<li><a href="fit_info.html">Sign Up</a></li>
+			<li><a href="fit_index.html">Home</a></li>
+			<li><a href="fit_classes.html">Classes</a></li>
+		</ul>
+	</nav>
+	<article>
+	<div class ="container">
+		<form method="get" action="thankyou-1.html">
+			<fieldset>
+				<legend>
+					Contact information
+				</legend>
+				<label for="fname">
+					First Name: 
+					<input autofocus type="text" name="fname" required placeholder="First Name" id="fname" />
+				</label>
+				<br>
+				<label for="lname">
+					Last Name:
+					<input type="text" name="lname" id="lname" required placeholder="Last Name" />
+				</label>
+				<br>
+				<label for="email">
+					Email:
+					<input type="email" name="email" required placeholder="Email" id="email" />
+				</label>
+				<br>
+				<label for="phone">
+					Phone:
+					<input type="number" name="phone" required placeholder="Phone" id="phone" />
+				</label><br>
+				<label for="contact">
+					Contact:
+					<input type="text" name="contact" list="contactlist" id="contact" required />
+						<datalist id="contactlist">
+							<option value="Email">
+							<option value="Phone">
+							<option value="Text">
+						</datalist>
+				</label>
+				<br>
+			</fieldset>
+
+			<fieldset>
+				<legend>
+				Classes:
+				</legend>
+				<label for="Class1">
+				<input type="checkbox" id="Class1" name="class1" value="CrossFit"> Crossfit
+				</label>
+				<br>
+				<label for="Class2">
+				<input type="checkbox" id="Class2" name="class2" value="Pilates"> Pilates
+				</label>
+				<br>
+				<label for="Class3">
+				<input type="checkbox" id="Class3" name="class3" value="Cardio"> Cardio
+				</label>
+				<br>
+				<label for="Class4">
+				<input type="checkbox" id="Class4" name="class4" value="Bodybuilding"> Bodybuilding
+				</label>
+				<br>
+				<label for="Class5">
+				<input type="checkbox" id="Class5" name="class5" value="Martial Arts"> Martial Arts
+				</label><br>
+				<label for="AM">
+				AM
+				<input type="radio" id="AM" name="time" value="AM" >
+				</label>
+				<br>
+				<label for="PM">
+				PM
+				<input type="radio" id="PM" name="time" value="PM" >
+				</label>
+			</fieldset>
+			<input class="submit" type="submit" value="Submit"/>
+			
+		</form>
+		
+	</div>
+	</article>
+	
+</body>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<!--
+Andrew Sanders
+Fit for Fun Fitness
+Home section
+6/27/22
+!-->
+
+<head>
+	<title>Fit For Fun Fitness!</title>
+	<meta charset="utf-8" />
+	<link href="fit_layout.css" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<h1>Fit For Fun</h1>
+	</header>
+	<nav> 
+		<ul class="nav-cont">
+			<li><a href="fit_index.html">About Us</a></li>
+			<li><a href="fit_home.html">Home</a></li>
+			<li><a href="fit_classes.html">Classes</a></li>
+		</ul>
+	</nav>
+	<article>
+</body>
